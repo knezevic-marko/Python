@@ -1,12 +1,5 @@
 import json
 
-
-with open('dictionary.json', 'r') as openfile:
-    dictionary = json.load(openfile)
-    print(dictionary)
-
-    dictionary = {}
-
 text = """Chose one option:
 0) Quit
 1) Create
@@ -17,6 +10,10 @@ text = """Chose one option:
 6) Update meaning
 Input:
 """
+
+with open('dictionary.json', 'r') as openfile:
+    dictionary = json.load(openfile)
+print(dictionary)
 
 while True:
     option = input(text)
