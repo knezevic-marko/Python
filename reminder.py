@@ -1,26 +1,24 @@
 import json
 
+text = """
+0 - quit
+1 - read
+2 - create
+3 - update
+4 - delete 
+5 - search priority
+"""
+
 with open('reminder.json', 'r') as openfile:
-    reminder = json.load(openfile)
-    print(reminder)
+    reminder_list = json.load(openfile)
+print(reminder_list)
 
-print( """
-    0 - quit
-    1 - read
-    2 - create
-    3 - update
-    4 - delete 
-    5 - search priority
-    """
-)
-
-reminder_list = []
-
+print(text)
 while True:
     message = input("Enter one of the numbers offered: ")
     if message == '0':
         with open("reminder.json", "w") as outfile:
-            outfile.write(json.dumps(reminder, indent=4))
+            outfile.write(json.dumps(reminder_list, indent=4))
         quit()
 
     elif message == '1':
@@ -59,7 +57,7 @@ while True:
         elif update_field == '2':
             del reminder_list[index]["content"]
         elif update_field == '3':
-           del reminder_list[index]["priority"]
+            del reminder_list[index]["priority"]
 
     elif message == '5':
         value_priority = int(input("Enter value priority: "))
@@ -70,4 +68,3 @@ while True:
     elif message == '6':
         index = int(input("Delete index: "))
         reminder_list.pop(index)
-
