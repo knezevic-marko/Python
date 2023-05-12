@@ -5,9 +5,9 @@ text = """
 1 - read
 2 - create
 3 - update
-4 - delete 
+4 - individual deletion of elements
 5 - search priority
-6 - ...
+6 - delete 
 """
 
 with open('reminder.json', 'r') as openfile:
