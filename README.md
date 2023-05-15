@@ -1,7 +1,7 @@
 # PYTHON COURSE
 
-In the Python course I used the book Python Crash Course, 3rd edition, by Eric Matthes. 
-(link)
+In the Python course I used the book Python Crash Course, 2nd edition, by Eric Matthes. 
+[Python Crash Course, 2nd Edition (Eric Matthes) (z-lib.org).pdf](https://github.com/knezevic-marko/Python/files/11481501/Python.Crash.Course.2nd.Edition.Eric.Matthes.z-lib.org.pdf)
 
 During the course I passed the following:
 
@@ -25,7 +25,7 @@ During the course I passed the following:
 
 Along with the Python course, I read about algorithms and data structures. 
 Specifically, "Grokking algorithms" by Aditya Y. Bhargava.
-(link)
+[Grokking Algorithms An Illustrated Guide for Programmers and Other Curious People (Aditya Y. Bhargava) (z-lib.org) (1).pdf](https://github.com/knezevic-marko/Python/files/11481481/Grokking.Algorithms.An.Illustrated.Guide.for.Programmers.and.Other.Curious.People.Aditya.Y.Bhargava.z-lib.org.1.pdf)
 
 At the end of the course, I did two assignments in Python, 
 reminder and dictionary, through which I renewed the basics of Python.
